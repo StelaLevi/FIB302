@@ -1,0 +1,218 @@
+{
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "print (245+836)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gyeADxzAevP_",
+        "outputId": "b1f471bb-36c6-460f-bd35-381ac2fdcbb8"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1081\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "c=8.56\n",
+        "print (c/4)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CSMrLUxTe9NM",
+        "outputId": "c06ef6c4-8c18-426b-c857-b7940a601f65"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2.14\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "z=\"Bom dia,\"\n",
+        "w=\"o sol já nasceu la na fazendinha\"\n",
+        "print (z+w)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BIT7GOTXf_jc",
+        "outputId": "070c3120-a0f9-4718-b028-edd6845e00af"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Bom dia,o sol já nasceu la na fazendinha\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome = input(\"Digite seu nome: \")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hfpiV0qZlaV1",
+        "outputId": "030c5fcf-ef09-4050-8148-b04ac41b918e"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Digite seu nome: Stela\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Olá, \" + nome + \"! Bem-vindo ao Google Colab!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "srzPs0l7mAW2",
+        "outputId": "45ba71b6-8689-454c-d9c6-0328773901ed"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olá, Stela! Bem-vindo ao Google Colab!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "B=3\n",
+        "h=4\n",
+        "S=B*h\n",
+        "print (S)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BTlbE_s3mN89",
+        "outputId": "9d344aa9-e1b6-421c-fa03-7c9f9ec2e8fe"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "12\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "celsius = 26\n",
+        "fahrenheit = (celsius * 9/5) + 32\n",
+        "print(\"A temperatura em Fahrenheit é:\", fahrenheit)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "irWSq5qLnC2p",
+        "outputId": "85eab324-3300-4407-97c8-600bcce67d23"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "A temperatura em Fahrenheit é: 78.8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(2*(3+4)/5)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gqUyHciBoMql",
+        "outputId": "0dc7bc26-907c-4e82-ee4e-a85d340e4449"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2.8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "t4v_eg0_o2iC"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Olá, este é o Colaboratory",
+      "toc_visible": true,
+      "provenance": []
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
